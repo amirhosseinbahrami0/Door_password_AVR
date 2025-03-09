@@ -26,13 +26,12 @@ if(pass[0] == '1' && pass[1] == '2' && pass[2] == '3' && pass[3] == '4'){
                 lcd_puts(" your password ");
                 lcd_puts(" is correct ");
                 delay_ms(1000);
-                lcd_clear();
+
 }
 else{
         lcd_clear();
         lcd_puts("Wrong password");
-        delay_ms(1000);
-        lcd_clear();
+        delay_ms(500);
 }
 
         }
